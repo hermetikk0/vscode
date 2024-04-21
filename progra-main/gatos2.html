@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos!</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .img-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .img-container:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="carrusel2.html">Inicio</a>
+        <a href="Perros2.html">Perros</a>
+        <a href="gatos2.html">Gatos</a>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Gatitos!</h1>
+                <p>¡Bienvenido a la sección de gatos!</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="img-container">
+                    <a href="gato1.html">
+                    <img src="img/gato1.jpg" class="img-fluid" alt="gato 1">
+                </a>
+                </div>
+                <p class="mt-2">Exotico</p>
+            </div>
+            <div class="col-md-4">
+                <div class="img-container">
+                    <a href="gato2.html">
+                    <img src="img/gato2.jpg" class="img-fluid" alt="gato 2">
+                </a>
+                </div>
+                <p class="mt-2">Oriental</p>
+            </div>
+            <div class="col-md-4">
+                <div class="img-container">
+                    <a href="gato3.html">
+                    <img src="img/gato3.jpg" class="img-fluid" alt="gato 3">
+                </a>
+                </div>
+                <p class="mt-2">Siberiano</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
