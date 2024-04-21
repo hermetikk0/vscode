@@ -15,23 +15,22 @@
     <nav class="navbar navbar-expand-lg bg-warning-subtle" >
       <div class="container-fluid">
         <a class="navbar-brand" href="/paginatienda/index.html" id="Somosmascotas">
-            <img src="/paginatienda/imagenes/logo.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
-            Somos mascotas
-          </a>
+          <img src="/paginatienda/imagenes/logo.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+          Somos mascotas
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" >
-            <a class="nav-link" href="/paginatienda/Perros/perro.html" id="Perros">Perros</a>
-            <a class="nav-link" href="/paginatienda/Gatos/gatos.html" id="Gatos">Gatos</a>
-            <a class="nav-link" href="/paginatienda/Productos/producto.html" id="Productos">Productos</a>
-            <a class="nav-link" href="Ofertas.html" id="Ofertas">Ofertas</a>
-            <a class="nav-link" href="/paginatienda/Login/login.html" id="Login">Login</a>            
-            <a class="nav-link" href="/paginatienda/Contacto/contacto.html" id="contacto">Contacto</a>
-            <a class="nav-link" href="/paginatienda/Compra/compra.html" id="carrito">Carrito</a>
-  
+          <a class="nav-link" href="/paginatienda/Perros/perro.html" id="Perros">Perros</a>
+          <a class="nav-link" href="/paginatienda/Gatos/gatos.html" id="Gatos">Gatos</a>
+          <a class="nav-link" href="/paginatienda/Productos/producto.html" id="Productos">Productos</a>
+          <a class="nav-link" href="Ofertas.html" id="Ofertas">Ofertas</a>
+          <a class="nav-link" href="/paginatienda/Login/login.html" id="Login">Login</a>          <a class="nav-link" href="/paginatienda/Contacto/contacto.html" id="contacto">Contacto</a>
+          <a class="nav-link" href="/paginatienda/Compra/compra.html" id="carrito">Carrito</a>
 
-          <form class="d-flex" role="search">
+
+          <form class="d-flex" role="search" >
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
@@ -39,3 +38,15 @@
         
       </div>
     </nav>
+        <div class = "container"id = 'login' >
+            <h1>LOGIN</h1>
+                <form action="{{route('login')}}" method="POST" id="login">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" value="">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <button type="submit">Ingresar</button>
+                </form>
+            <p>No tienes cuenta? <a href="">Registrate</a></p>
+        </div>
+  </body>

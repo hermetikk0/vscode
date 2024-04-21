@@ -1,0 +1,19 @@
+.navbar .container-fluid {
+    overflow: hidden;
+  }
+  
+  /* Estilo para los enlaces de la barra de navegación */
+  .navbar a {
+    color: black; /* Color de texto */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 14px 20px; /* Espaciado interno */
+  }
+
+login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
