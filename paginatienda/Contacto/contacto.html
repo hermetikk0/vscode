@@ -38,3 +38,43 @@
         
       </div>
     </nav>
+
+    <div class="container" >
+        <h1>Contactanos</h1>
+    <form id="contactForm" onsubmit="return validateForm()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+    <script>
+        function validateForm() {
+            // Validate name, email, and message fields
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill in all fields");
+                return false;
+            }
+
+            // Clear the form
+            document.getElementById("contactForm").reset();
+
+            // Display success message
+            alert("Form submitted successfully");
+            return false;
+        }
+    </script>
