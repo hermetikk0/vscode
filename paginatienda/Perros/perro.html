@@ -3,39 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/paginatienda/estilos.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Perros en adopción</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
-
 <body>
-    <!--ESTA ES LA BARRRA DE NAVEGACION DE LA TIENDA -->
-    <nav class="navbar navbar-expand-lg bg-warning-subtle" >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/paginatienda/index.html" id="Somosmascotas">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+        <a class="navbar-brand" href="/paginatienda/index.html">
             <img src="/paginatienda/imagenes/logo.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
             Somos mascotas
-          </a>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" >
-            <a class="nav-link" href="/paginatienda/Perros/perro.html" id="Perros">Perros</a>
-            <a class="nav-link" href="/paginatienda/Gatos/gatos.html" id="Gatos">Gatos</a>
-            <a class="nav-link" href="/paginatienda/Productos/producto.html" id="Productos">Productos</a>
-            <a class="nav-link" href="Ofertas.html" id="Ofertas">Ofertas</a>
-            <a class="nav-link" href="/paginatienda/Login/login.html" id="Login">Login</a>            
-            <a class="nav-link" href="/paginatienda/Contacto/contacto.html" id="contacto">Contacto</a>
-            <a class="nav-link" href="/paginatienda/Compra/compra.html" id="carrito">Carrito</a>
-  
-
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Perros/perro.html">Perros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Gatos/gatos.html">Gatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Productos/producto.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Ofertas.html">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Login/login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Contacto/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginatienda/Compra/compra.html">Carrito</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
         </div>
-        
-      </div>
-    </nav>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h3 class="mb-4">Nuestros perros que buscan familia:</h3>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">1. <a href="firulais.html">Firulais</a></h5>
+            <p class="card-text"><strong>Descripción:</strong> Firulais es un perro amigable y juguetón. Tiene 3 años de edad y es macho.</p>
+            <p class="card-text"><strong>Vacunas:</strong> Sí</p>
+            <img src="/paginatienda/imagenes/perro10.jpg" class="card-img-top" alt="foto de Firulais">
+        </div>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">2. <a href="orejitas.html">Orejitas</a></h5>
+            <p class="card-text"><strong>Descripción:</strong> Orejitas es una perrita dulce y tranquila. Tiene 2 años de edad y es hembra.</p>
+            <p class="card-text"><strong>Vacunas:</strong> No</p>
+            <img src="/paginatienda/imagenes/perro11.jpg" class="card-img-top" alt="foto de Orejitas">
+        </div>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">3. <a href="tara.html">Tara</a></h5>
+            <p class="card-text"><strong>Descripción:</strong> Tara es una cachorra enérgica y curiosa. Tiene 1 año de edad y es hembra.</p>
+            <p class="card-text"><strong>Vacunas:</strong> Sí</p>
+            <img src="/paginatienda/imagenes/perro12.jpg" class="card-img-top" alt="foto de Tara">
+        </div>
+    </div>
+
+    <p class="mt-4">Número de contacto: +56 9 1234 5678</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
